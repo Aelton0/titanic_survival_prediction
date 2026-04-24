@@ -62,3 +62,5 @@ Para rodar este script no seu ambiente local utilizando o Prompt de Comando (CMD
         python titanic_survival_prediction.py
     ```
 
+📈 Resultados
+Ao final da execução, o terminal imprimirá as métricas do modelo treinado contra os dados de teste (x_test), fornecendo o percentual de Accuracy (acertos gerais), Precision (assertividade dos casos positivos apontados) e Recall (capacidade de encontrar todos os casos positivos reais). Além disso, os gráficos de análise exploratória (Pairplot, Heatmap e Histogramas) serão exibidos em janelas interativas.
