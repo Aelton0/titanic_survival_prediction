@@ -44,5 +44,21 @@ Para rodar este script no seu ambiente local utilizando o Prompt de Comando (CMD
 
 1. Clone o repositório para sua máquina:
    ```cmd
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-   cd seu-repositorio
+       git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+       cd seu-repositorio
+   ```
+2. Crie e ative um ambiente virtual para isolar as dependências:
+   
+   ```cmd
+      python -m venv venv
+      venv\Scripts\activate.bat
+   ```
+4. Instale as bibliotecas necessárias:
+    ```cmd
+      pip install pandas numpy matplotlib seaborn scikit-learn kagglehub
+    ```
+5. Execute a pipeline principal:
+    ```cmd
+        python titanic_survival_prediction.py
+    ```
+
